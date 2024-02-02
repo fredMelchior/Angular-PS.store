@@ -1,0 +1,33 @@
+.pricing {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 8px;
+	background-color: #010101b2;
+	color: antiquewhite;
+	font-family: Calibri;
+	// display: flex;
+	// flex-direction: column;
+}
+
+.pricing__title{
+	margin-bottom: 4px;
+}
+
+.pricing__value {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pricing__value__console {
+	display: flex;
+	align-items: center;
+
+	& > span {
+		font-weight: bolder;
+		color: aqua;
+		margin-right: 4px;
+	}
+}

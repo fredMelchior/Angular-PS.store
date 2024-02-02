@@ -1,0 +1,39 @@
+.menu-bar__container{
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	padding: 24px 32px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: #eee;
+	box-shadow: 0 0 4px 0 rgba($color: #000000, $alpha: 0.5);
+}
+
+.menu-bar__logo > img {
+		object-fit: contain;
+		width: 160px;
+}
+
+.menu-bar__item > ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	color: black;
+	text-transform: capitalize;
+
+	& > li {
+		padding: 4px;
+		font-size: 20px;
+		margin: 0 16px;
+
+		& > a:hover {
+			color: blue;
+		}
+	}
+}

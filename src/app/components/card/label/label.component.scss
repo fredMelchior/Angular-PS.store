@@ -1,0 +1,16 @@
+.label__container {
+	position: absolute;
+	bottom: 90px;
+	right: 0;
+	background-color: #0d0d0d;
+	color: #f7f7f7;
+}
+
+.label__content {
+	display: flex;
+	justify-self: center;
+	align-items: center;
+	padding: 4px 24px;
+	font-size: 12px;
+	font-weight: bold;
+}
